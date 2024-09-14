@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+button{
+  cursor: pointer;
+
+  &[disabled]{
+    pointer-events: none;
+  }
+}
+
+.flex-with-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vending-machine {
+  background-color: #994F4F;
+  width: 100%;
+  max-width: 600px;
+}
+
+.d-flex{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.h1{
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.015625em
+}
+
+.h2{
+  font-size: 3.75rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.0083333333em;
+}
+
+.h3{
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: normal;
+}
+
+.h4{
+  font-size: 2.125rem;
+  font-weight: 400;
+  line-height: 1.175;
+  letter-spacing: 0.0073529412em;
+}
+
+.h5{
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.333;
+  letter-spacing: normal;
+}
+
+.h6{
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0125em;
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+.text-right{
+  text-align: right !important;
+}
+
+@for $i from 1 through 3 {
+  .m-#{$i} {
+    margin: 0.25rem * $i;
+  }
+  .m-x-#{$i} {
+    margin: 0 0.25rem * $i;
+  }
+  .m-y-#{$i} {
+    margin: 0.25rem * $i 0;
+  }
+  .m-t-#{$i} {
+    margin-top: 0.25rem * $i;
+  }
+  .m-b-#{$i} {
+    margin-bottom: 0.25rem * $i;
+  }
+  .m-l-#{$i} {
+    margin-left: 0.25rem * $i;
+  }
+  .m-r-#{$i} {
+    margin-right: 0.25rem * $i;
+  }
+}
+

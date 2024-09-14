@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Shandy Bass",
+    "price": 1.50,
+    "image": "./img-1.png",
+    "qty": 3
+  },
+  {
+    "id": 2,
+    "name": "D'n'B",
+    "price": 2.00,
+    "image": "./img-2.png",
+    "qty": 3
+  },
+  {
+    "id": 3,
+    "name": "Irn-Bru",
+    "price": 1.85,
+    "image": "./img-3.png",
+    "qty": 3
+  },
+  {
+    "id": 4,
+    "name": "Lilt",
+    "price": 2.99,
+    "image": "./img-4.png",
+    "qty": 3
+  },
+  {
+    "id": 5,
+    "name": "Tango",
+    "price": 3.10,
+    "image": "./img-5.png",
+    "qty": 3
+  },
+  {
+    "id": 6,
+    "name": "Coca Cola Chery",
+    "price": 1.00,
+    "image": "./img-6.png",
+    "qty": 3
+  },
+  {
+    "id": 7,
+    "name": "Fanta lemon",
+    "price": 0.99,
+    "image": "./img-7.png",
+    "qty": 3
+  },
+  {
+    "id": 8,
+    "name": "Tizer",
+    "price": 2.49,
+    "image": "./img-8.png",
+    "qty": 3
+  },
+  {
+    "id": 9,
+    "name": "Dr. Pepper",
+    "price": 5.00,
+    "image": "./img-9.png",
+    "qty": 3
+  },
+  {
+    "id": 10,
+    "name": "Pepsi Max",
+    "price": 4.25,
+    "image": "./img-10.png",
+    "qty": 3
+  },
+  {
+    "id": 11,
+    "name": "Lucozade Energy",
+    "price": 2.30,
+    "image": "./img-11.png",
+    "qty": 3
+  },
+  {
+    "id": 12,
+    "name": "Pepsi",
+    "price": 1.60,
+    "image": "./img-12.png",
+    "qty": 3
+  },
+  {
+    "id": 13,
+    "name": "Fanta Orange",
+    "price": 1.11,
+    "image": "./img-13.png",
+    "qty": 3
+  },
+  {
+    "id": 14,
+    "name": "Diet Coke",
+    "price": 2.23,
+    "image": "./img-14.png",
+    "qty": 3
+  },
+  null
+]
